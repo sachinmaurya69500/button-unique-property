@@ -1,0 +1,10 @@
+/* Default body background */
+body {
+  background-color: #ffffff;
+  transition: background-color 0.2s ease;
+}
+
+/* Change body background when .button is active (pressed) */
+body:has(.button:active) {
+  background-color: var(--random-bg, #000); 
+}
